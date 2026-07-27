@@ -57,6 +57,17 @@ coordinates) for select competitions, including the full 2022 World Cup.
    set, and benchmarks against StatsBomb's own xG values
 4. **`src/visualize.py`** — generates the shot map and calibration plot above
 
+## Interactive Dashboard
+
+A Streamlit dashboard lets you explore the model interactively: filter shots
+by team or player, see a live shot map, and check an xG-overperformance
+leaderboard (who's scoring more, or fewer, goals than their chance quality
+predicts — a rough proxy for finishing skill).
+
+```bash
+streamlit run app.py
+```
+
 ## Running it yourself
 
 ```bash

@@ -72,6 +72,7 @@ def extract_shots_from_match(match_id: int) -> list[dict]:
 
         rows.append({
             "match_id": match_id,
+            "team": e.get("team", {}).get("name"),
             "player": e.get("player", {}).get("name"),
             "x": x,
             "y": y,
