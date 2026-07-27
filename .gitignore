@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw cached match data is large (64 files) and easily re-downloaded
+# via `python src/fetch_data.py` — no need to commit it.
+data/raw/events/
